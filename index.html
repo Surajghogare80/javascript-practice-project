@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(205, 205, 164);
+            margin: 0px;
+            padding: 0%;
+        }
+
+        .heading {
+            text-align: center;
+            margin-top: 10px;
+            padding-bottom: 10px;
+            font-size: 40px;
+            border-bottom: 2px solid black;
+        }
+
+        .circle-1 {
+            border: 2px solid;
+            border-radius: 50%;
+            height: 150px;
+            width: 130px;
+        }
+
+        .circle-2 {
+            border: 2px solid;
+            border-radius: 50%;
+            height: 150px;
+            width: 130px;
+
+        }
+
+        .circle-3 {
+            border: 2px solid;
+            border-radius: 50%;
+            height: 150px;
+            width: 130px;
+        }
+
+        .circle-4 {
+            border: 2px solid;
+            border-radius: 50%;
+            height: 150px;
+            width: 130px;
+        }
+
+        .circle-5 {
+            border: 2px solid;
+            border-radius: 50%;
+            height: 150px;
+            width: 130px;
+        }
+
+        .circle-6 {
+            border: 2px solid;
+            border-radius: 50%;
+            height: 150px;
+            width: 130px;
+        }
+
+
+        .img-section {
+            display: flex;
+            justify-content: space-evenly;
+            cursor: pointer;
+            margin-bottom: 50px;
+        }
+
+        .container {
+
+            display: flex;
+            justify-content: space-around;
+
+
+
+        }
+
+        .box {
+            height: 450px;
+            width: 350px;
+            border: 10px solid black;
+            border-top-left-radius: 70px;
+            border-bottom-right-radius: 70px;
+        }
+
+        .text {
+            font-family: cursive;
+            font-size: 40px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading"> South Famous Actresses</h1>
+
+
+    <div class="img-section">
+        <img src="./mrunal-img.webp" class="circle-1" onclick="mrunal()" id="1">
+        <img src="./rakul-img.jpg" class="circle-2" onclick="rakul()" id="2">
+        <img src="./samantha-img.jpg" class="circle-3" onclick="samantha()" id="3">
+        <img src="./tamana-img.jpeg" class="circle-4" onclick="tamana()" id="4">
+        <img src="./dipika-img.jpeg" class="circle-5" onclick="dipika()" id="5">
+        <img src="./anushka-img.jpeg" class="circle-6" onclick="anushka()" id="6">
+    </div>
+
+
+
+    <div class="container">
+        <div id="text">
+            <h3 id="mrunaltext"> Mrunal Thakur</h3>
+
+        </div>
+        <img src="./mrunal-img.webp" class="box" id="img">
+    </div>
+
+
+    <script>
+        function rakul() {
+            const rakulimg = document.getElementById("img")
+            const rakultext = document.getElementById("text")
+            rakulimg.src = "./rakul-img.jpg";
+            rakultext.innerText = "Rakul preet";
+        }
+
+        function tamana() {
+            const rakulimg = document.getElementById("img")
+            const rakultext = document.getElementById("text")
+            rakulimg.src = "./tamana-img.jpeg";
+            rakultext.innerText = "Tamana Bhatia";
+        }
+
+        function samantha() {
+            const rakulimg = document.getElementById("img")
+            const rakultext = document.getElementById("text")
+            rakulimg.src = "./samantha-img.jpg";
+            rakultext.innerText = "Samantha Ruth Prabhu";
+        }
+
+        function dipika() {
+            const rakulimg = document.getElementById("img")
+            const rakultext = document.getElementById("text")
+            rakulimg.src = "./dipika-img.jpeg";
+            rakultext.innerText = "Dipika  Padukon";
+        }
+
+
+        function anushka() {
+            const rakulimg = document.getElementById("img")
+            const rakultext = document.getElementById("text")
+            rakulimg.src = "./anushka-img.jpeg";
+            rakultext.innerText = "Anushka  Sharma";
+        }
+
+
+        function mrunal() {
+            const rakulimg = document.getElementById("img")
+            const rakultext = document.getElementById("text")
+            rakulimg.src = "./mrunal-img.webp";
+            rakultext.innerText = "Mrunal  Thakur";
+        }
+
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
